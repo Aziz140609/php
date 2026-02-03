@@ -6,9 +6,9 @@ tunjangan_anak = 0
 if nikah == "ya":
     tunjangan_pasutri = gaji_pokok * 0.1
     jumlah_anak = int(input("Masukkan jumlah anak(angka): "))
-    if jumlah_anak == 2:
+    if jumlah_anak == 1:
         tunjangan_anak = gaji_pokok * 0.05
-    elif jumlah_anak > 1:
+    elif jumlah_anak >= 2:
         tunjangan_anak = 0.1 * gaji_pokok
     else:
         print("anda tidak mendapatkan tunjangan anak")
