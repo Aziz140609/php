@@ -15,11 +15,23 @@ buah =["apel", "pisang", "jeruk"]
 buah[0] = "markisa"
 print(buah)
 
-#list yg tidak bisa di ubah
+#list yg tidak bisa di ubah = tuple
 angka = (1, 2, 3, 4, 5,5)
 #angka(0) = 10  # ini akan error karena tuple tidak bisa di ubah
 print(angka)
 
-#set yg tidak bisa duplikat nilai
+#set yg tidak bisa duplikat nilai = set
 huruf = {'a', 'b', 'c', 'c'}
 print(huruf)
+
+#dictionary
+Siswa = [{
+    "nama":"andi",
+    "umur" : 15,
+    "kelas" : "10A"
+}]
+print(Siswa)
+
+#bilangan imaginer/kompleks
+A = 3+4+5j
+print(A)
